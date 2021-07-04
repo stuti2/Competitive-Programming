@@ -24,21 +24,21 @@ void solve()
         if(a[i]%2)
             even++;
     }
-    if(2*n - even==even)
+    if(2*n - even == even)
         cout<<"Yes"<<endl;
     else
         cout<<"No"<<endl;
 }
 
-int main() {
-	// your code goes here
-	readFile();
-	FASTIO;
+int main() 
+{
+    readFile();
+    FASTIO;
     int t;
     cin>>t;
     TC(t)
     {
         solve();
     }
-	return 0;
+    return 0;
 }
